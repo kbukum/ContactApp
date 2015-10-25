@@ -1,15 +1,16 @@
-#### CONTACTS APPLICATION
+## CONTACTS APPLICATION
 
+### Motivation
 An Java Application which can do some operate (add,list,search) on Contacts by using CLI.
 
-###### Features
+### Features
 
 * Import Contacts from Files which has some rule and from any path on your system by using CLI . 
 * Save your contacts in mongo db and merge them by name and lastName . 
 * Add your mongo database name if you don't want application use default database which is name "Contacts" and defined in the App.
 * List or search  by "name" and lastName the contacts on Mongo Database .
 
-###### What you need 
+### What you need ?
 
 * Mongo Server for store Data
 * if you want to connect remote Mongo server then you can add -host , -port ,-db parameters to the main arguments of application.
@@ -18,18 +19,17 @@ An Java Application which can do some operate (add,list,search) on Contacts by u
 
 * Start Application 
 
-Default DB properties :
+**Default DB properties :**
 
     $ java -jar ContactApp.jar
     
     
-Custom DB Properties :
+**Custom DB Properties :**
     
     $ java -jar ContactApp.jar -host localhost -port 12712 -db MyDb
     
     
-    
-Add : 
+**Add :**
     
 for Example absolute path:
         
@@ -38,7 +38,7 @@ for Example absolute path:
 for Example relative path : $ -add example1.xml ../example1.xml 
  
                                     
-Search :
+**Search :**
 
 for example search  contacts by name OR lastName 
 
@@ -51,20 +51,20 @@ for example search contacts by name AND lastName
      
      
      
-List : 
+**List :** 
      
 for example list all contacts
      
     $ -list 
      
-##### Help 
+**Help :** 
 
 * -add file1[ file2[ "file3"....]]  -> Import contact from files by some Rules. You can see following example how use it.
 
     -add example1.xml /Users/X/Y/Z/example2.xml
 
 example1.xml
-
+```xml
     <Contacts>
         <contact>
             <id>1</id>
@@ -79,7 +79,7 @@ example1.xml
             <phones>+90 555 222 33 44,+90 555 666 77 88</phones>
         </contact>
     </Contacts>
-    
+```
     
 * -search key1 [ key2] : you can search by name or lastName or both of them.
 * -list  : You can see all contacts.
