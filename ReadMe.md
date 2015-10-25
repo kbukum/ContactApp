@@ -81,10 +81,10 @@ example1.xml
     </Contacts>
     
     
-* -search key1 [ key2] you can search by name or lastName or both of them.
-* -list  You can see all contacts.
-* quit Use it for exit from Application CLI
-* --help use help for learning how use commands. 
+* -search key1 [ key2] : you can search by name or lastName or both of them.
+* -list  : You can see all contacts.
+* quit : use it for exit from Application CLI
+* --help : use help for learning how use commands. 
     
 
 
