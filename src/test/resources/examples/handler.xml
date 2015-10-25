@@ -1,0 +1,14 @@
+<Contacts>
+    <contact>
+        <id>1</id>
+        <name>Test1</name>
+        <lastName>Test1</lastName>
+        <phones>905552253344</phones>
+    </contact>
+    <contact>
+        <id>2</id>
+        <name>Test</name>
+        <lastName>Test1</lastName>
+        <phones>+90 555 222 33 44</phones>
+    </contact>
+</Contacts>

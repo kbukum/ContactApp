@@ -1,0 +1,14 @@
+<Contacts>
+    <contact>
+        <id>1</id>
+        <name>Name1</name>
+        <lastName>LastName1</lastName>
+        <phones>+90 555 222 33 44,+90 555 666 77 88</phones>
+    </contact>
+    <contact>
+        <id>2</id>
+        <name>Name2</name>
+        <lastName>LastName2</lastName>
+        <phones>+90 555 222 33 44,+90 555 666 77 88</phones>
+    </contact>
+</Contacts>
